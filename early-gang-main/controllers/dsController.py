@@ -558,7 +558,7 @@ async def controller(message):
                     await y(pressTime)
                 elif "select" in message:
                     dice = random.randint(1,10)
-                    if dice -- 1:
+                    if dice == 1:
                         await gbaController.select(pressTime)
                 elif "start" in message:
                     dice = random.randint(1, 10)
